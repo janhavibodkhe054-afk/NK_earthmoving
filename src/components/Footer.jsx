@@ -19,7 +19,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="bg-black border-t border-gray-700">
+      <div className="bg-black border-t border-white/10">
         <div
           className="
             max-w-7xl mx-auto px-4 py-4
@@ -30,19 +30,9 @@ const Footer = () => {
           "
         >
           {/* Links */}
-          <div className="flex flex-wrap justify-center gap-4">
-            <a href="#" className="hover:underline">
-              Terms & Support
-            </a>
-            <a href="#" className="hover:underline">
-              Privacy Policy
-            </a>
-          </div>
+          
 
-          {/* Credit */}
-          <div className="opacity-80 text-center sm:text-right">
-            Designed with <span className="font-semibold">Canva</span>
-          </div>
+          {/* Credit (Optional – you can add later) */}
         </div>
       </div>
     </footer>
