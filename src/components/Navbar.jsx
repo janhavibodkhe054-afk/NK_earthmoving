@@ -8,7 +8,6 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-[#1a1a2e] shadow-md w-full px-5">
       <div className="w-full px-4 py-4 flex items-center justify-between">
-        
         {/* Logo */}
         <div>
           <h1 className="text-xl md:text-2xl font-bold text-white font-oswald uppercase">

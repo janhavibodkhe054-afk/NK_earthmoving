@@ -4,30 +4,35 @@ const Contact = () => {
   return (
     <section className="py-12 sm:py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-
         {/* Heading */}
-        <h2 className="text-2xl sm:text-3xl
+        <h2
+          className="text-2xl sm:text-3xl
                        font-bold text-center text-[#0b173f]
-                       opacity-0 animate-fadeInUp">
+                       opacity-0 animate-fadeInUp"
+        >
           CONTACT US
         </h2>
 
-        <div className="w-12 sm:w-16 h-1 bg-orange-500
+        <div
+          className="w-12 sm:w-16 h-1 bg-orange-500
                         mx-auto mt-2 mb-8 sm:mb-12 rounded
-                        opacity-0 animate-fadeInUp animation-delay-200">
-        </div>
+                        opacity-0 animate-fadeInUp animation-delay-200"
+        ></div>
 
         {/* Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-
           {/* Get In Touch */}
-          <div className="bg-[#f9f8f8]
+          <div
+            className="bg-[#f9f8f8]
                           p-6 sm:p-8
                           rounded-lg shadow
-                          opacity-0 animate-fadeInUp animation-delay-400">
-            <h3 className="text-lg sm:text-xl
+                          opacity-0 animate-fadeInUp animation-delay-400"
+          >
+            <h3
+              className="text-lg sm:text-xl
                            font-semibold mb-4 sm:mb-6
-                           text-[#0b173f]">
+                           text-[#0b173f]"
+            >
               Get In Touch
             </h3>
 
@@ -36,8 +41,8 @@ const Contact = () => {
                 <span className="mr-2">📍</span> Address:
               </p>
               <p className="text-[#0b173f] mt-1 text-sm sm:text-base">
-                Plot No. 144, G.I.D.C Area, Oslo Area, Gandhidham,
-                (Kutch) Gujarat – 370201, India
+                Plot No. 144, G.I.D.C Area, Oslo Area, Gandhidham, (Kutch)
+                Gujarat – 370201, India
               </p>
             </div>
 
@@ -61,13 +66,17 @@ const Contact = () => {
           </div>
 
           {/* Quick Enquiry Form */}
-          <div className="bg-[#fdf8f9]
+          <div
+            className="bg-[#fdf8f9]
                           p-6 sm:p-8
                           rounded-lg shadow
-                          opacity-0 animate-fadeInUp animation-delay-600">
-            <h3 className="text-lg sm:text-xl
+                          opacity-0 animate-fadeInUp animation-delay-600"
+          >
+            <h3
+              className="text-lg sm:text-xl
                            font-semibold mb-4 sm:mb-6
-                           text-[#0b173f]">
+                           text-[#0b173f]"
+            >
               Quick Enquiry
             </h3>
 
@@ -103,7 +112,8 @@ const Contact = () => {
                 type="submit"
                 className="w-full bg-orange-400 text-white
                            font-semibold py-3 rounded
-                           hover:bg-orange-500 transition">
+                           hover:bg-orange-500 transition"
+              >
                 Submit Enquiry
               </button>
             </form>

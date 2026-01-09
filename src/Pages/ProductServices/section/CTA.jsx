@@ -52,25 +52,24 @@ const CTA = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
-  <button
-    className="bg-orange-400 text-white font-bold text-base sm:text-lg
+            <button
+              className="bg-orange-400 text-white font-bold text-base sm:text-lg
                px-6 sm:px-10 py-3 sm:py-4 rounded-lg hover:shadow-lg transition
                w-full sm:w-auto max-w-[200px] sm:max-w-[200px] sm:mx-0 mx-auto"
-  >
-    Get Started
-  </button>
+            >
+              Get Started
+            </button>
 
-  <button
-    className="bg-green-400 text-white font-bold text-base sm:text-lg
+            <button
+              className="bg-green-400 text-white font-bold text-base sm:text-lg
                px-6 sm:px-8 py-3 sm:py-4 rounded-lg flex items-center justify-center gap-2
                hover:shadow-lg transition
                w-full sm:w-auto max-w-[200px] sm:max-w-[200px] sm:mx-0 mx-auto"
-  >
-    <span>💬</span>
-    <span>WhatsApp</span>
-  </button>
-</div>
-
+            >
+              <span>💬</span>
+              <span>WhatsApp</span>
+            </button>
+          </div>
         </div>
       </section>
 

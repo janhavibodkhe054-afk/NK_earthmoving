@@ -6,9 +6,9 @@ import CTA from "./section/CTA";
 const Product = () => {
   return (
     <div>
-      <ProductServices/>
-      <ProductTwo/>
-      <CTA/>
+      <ProductServices />
+      <ProductTwo />
+      <CTA />
     </div>
   );
 };

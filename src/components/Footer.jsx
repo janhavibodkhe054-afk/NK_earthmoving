@@ -28,12 +28,7 @@ const Footer = () => {
             justify-between items-center
             text-xs sm:text-sm
           "
-        >
-          {/* Links */}
-          
-
-          {/* Credit (Optional – you can add later) */}
-        </div>
+        ></div>
       </div>
     </footer>
   );
